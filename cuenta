@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+import sys
+from cuenta import cuenta
+
+if __name__=='__main__':
+    if len(sys.argv) != 2:
+        sys.exit(1)
+
+    arg=int(sys.argv[1])
+    cuenta(arg)
+
+    
+    
